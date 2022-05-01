@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-01T19:02:34 EET" name="Command line suite" finished-at="2022-05-01T19:02:47 EET" duration-ms="12400">
+    <groups>
+    </groups>
+    <test started-at="2022-05-01T19:02:34 EET" name="Command line test" finished-at="2022-05-01T19:02:47 EET" duration-ms="12400">
+      <class name="com.myecomm.testcases.LoginPageTest">
+        <test-method signature="navigateToLoginPage()[pri:0, instance:com.myecomm.testcases.LoginPageTest@65fb9ffc]" started-at="2022-05-01T19:02:44 EET" name="navigateToLoginPage" finished-at="2022-05-01T19:02:47 EET" duration-ms="2287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="enterCredentialsAndLogin(java.lang.String,java.lang.String)[pri:1, instance:com.myecomm.testcases.LoginPageTest@65fb9ffc]" started-at="2022-05-01T19:02:47 EET" name="enterCredentialsAndLogin" finished-at="2022-05-01T19:02:47 EET" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method enterCredentialsAndLogin but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method enterCredentialsAndLogin but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentialsAndLogin -->
+      </class> <!-- com.myecomm.testcases.LoginPageTest -->
+      <class name="com.myecomm.testcases.AddToCartTest">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:com.myecomm.testcases.AddToCartTest@76505305]" started-at="2022-05-01T19:02:25 EET" name="testSetUp" finished-at="2022-05-01T19:02:34 EET" duration-ms="9131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="searchProduct()[pri:0, instance:com.myecomm.testcases.AddToCartTest@76505305]" started-at="2022-05-01T19:02:34 EET" name="searchProduct" finished-at="2022-05-01T19:02:38 EET" duration-ms="3986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="addProductToCart()[pri:1, instance:com.myecomm.testcases.AddToCartTest@76505305]" started-at="2022-05-01T19:02:38 EET" name="addProductToCart" finished-at="2022-05-01T19:02:42 EET" depends-on-methods="com.myecomm.testcases.AddToCartTest.searchProduct" duration-ms="3560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="isProductAddedToCart()[pri:2, instance:com.myecomm.testcases.AddToCartTest@76505305]" started-at="2022-05-01T19:02:42 EET" name="isProductAddedToCart" finished-at="2022-05-01T19:02:44 EET" depends-on-methods="com.myecomm.testcases.AddToCartTest.searchProduct" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myecomm.testcases.AddToCartTest@76505305]" started-at="2022-05-01T19:02:47 EET" name="tearDown" finished-at="2022-05-01T19:02:47 EET" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myecomm.testcases.AddToCartTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

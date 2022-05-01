@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-01T19:20:39 EET" name="Default suite" finished-at="2022-05-01T19:20:54 EET" duration-ms="15160">
+    <groups>
+    </groups>
+    <test started-at="2022-05-01T19:20:39 EET" name="Default test" finished-at="2022-05-01T19:20:54 EET" duration-ms="15160">
+      <class name="com.myecomm.testcases.LoginPageTest">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:com.myecomm.testcases.LoginPageTest@3c7f66c4]" started-at="2022-05-01T19:20:23 EET" name="testSetUp" finished-at="2022-05-01T19:20:39 EET" duration-ms="16078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="navigateToLoginPage()[pri:0, instance:com.myecomm.testcases.LoginPageTest@3c7f66c4]" started-at="2022-05-01T19:20:39 EET" name="navigateToLoginPage" finished-at="2022-05-01T19:20:41 EET" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="enterCredentialsAndLogin()[pri:1, instance:com.myecomm.testcases.LoginPageTest@3c7f66c4]" started-at="2022-05-01T19:20:41 EET" name="enterCredentialsAndLogin" finished-at="2022-05-01T19:20:43 EET" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentialsAndLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myecomm.testcases.LoginPageTest@3c7f66c4]" started-at="2022-05-01T19:20:54 EET" name="tearDown" finished-at="2022-05-01T19:20:54 EET" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myecomm.testcases.LoginPageTest -->
+      <class name="com.myecomm.testcases.AddToCartTest">
+        <test-method signature="searchProduct()[pri:0, instance:com.myecomm.testcases.AddToCartTest@31fa1761]" started-at="2022-05-01T19:20:43 EET" name="searchProduct" finished-at="2022-05-01T19:20:47 EET" duration-ms="3836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="addProductToCart()[pri:1, instance:com.myecomm.testcases.AddToCartTest@31fa1761]" started-at="2022-05-01T19:20:47 EET" name="addProductToCart" finished-at="2022-05-01T19:20:51 EET" depends-on-methods="com.myecomm.testcases.AddToCartTest.searchProduct" duration-ms="3944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="isProductAddedToCart()[pri:2, instance:com.myecomm.testcases.AddToCartTest@31fa1761]" started-at="2022-05-01T19:20:51 EET" name="isProductAddedToCart" finished-at="2022-05-01T19:20:54 EET" depends-on-methods="com.myecomm.testcases.AddToCartTest.searchProduct" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductAddedToCart -->
+      </class> <!-- com.myecomm.testcases.AddToCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
